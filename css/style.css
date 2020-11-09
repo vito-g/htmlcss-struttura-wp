@@ -54,6 +54,14 @@ main {
   background-color: pink;
 }
 
+/* In alternativa potrei riscrivere la regola appena sopra utilizzando un selettore meno generico come sotto riportato */
+/* .fl:last-child .inner > div {
+  width: 100%;
+  height: calc(250px - 20px);
+  margin-bottom: 20px;
+  background-color: pink;
+} */
+
 .fl:nth-child(2) {
   width: 500px;
   height: 500px;
