@@ -19,14 +19,7 @@ header {
 main {
   margin-bottom: 10px;
 }
-/* Commento la regola qui sotto che sostituisco con la successiva */
-/* .left {
-  width: 350px;
-  height: 350px;
-  padding-right: 30px;
-  padding-bottom: 30px;
-  background-color: orange;
-} */
+
 
 .fl:first-child {
   width: 350px;
@@ -42,13 +35,6 @@ main {
   height: 100%;
 }
 
-/* Commento la regola sotto che sostituisco con la successiva */
-/* .right {
-  width: 350px;
-  height: 500px;
-  padding-left: 30px;
-} */
-
 .fl:last-child {
   width: 350px;
   height: 500px;
@@ -61,27 +47,12 @@ main {
   height: 500px;
 }
 
-/* Commento la regola qui sotto e la sostituisco con quella successiva */
-/* .top, .bottom {
-  width: 100%;
-  height: calc(250px - 20px);
-  margin-bottom: 20px;
-  background-color: pink;
-} */
 .inner > div {
   width: 100%;
   height: calc(250px - 20px);
   margin-bottom: 20px;
   background-color: pink;
 }
-
-
-/* Commento la regola qui sotto che sostituisco con la successiva */
-/* .center {
-  width: 500px;
-  height: 500px;
-  background-color: violet;
-} */
 
 .fl:nth-child(2) {
   width: 500px;
