@@ -38,3 +38,8 @@ header {
   display: table;
   clear: both;
 }
+
+footer {
+  height: 150px;
+  background-color: cyan;
+}
