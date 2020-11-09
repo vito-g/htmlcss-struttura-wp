@@ -28,3 +28,13 @@ header {
   height: 500px;
   background-color: violet;
 }
+
+.fl {
+  float: left;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
