@@ -22,17 +22,33 @@ main {
   margin-bottom: 10px;
 }
 
-.pink {
+.left {
   width: 350px;
   height: 350px;
   background-color: pink;
+  padding-right: 30px;
 }
 
-.pink.right {
+.left .inner {
+  background-color: black;
+  width: 100%;
+  height: 350px;
+}
+
+.right {
+  width: 350px;
+  height: 500px;
+  background-color: pink;
+  padding-left: 30px;
+}
+
+.right .inner {
+  background-color: black;
+  width: 100%;
   height: 500px;
 }
 
-.violet {
+.center {
   width: 500px;
   height: 500px;
   background-color: violet;
