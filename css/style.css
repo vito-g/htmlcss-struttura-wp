@@ -23,6 +23,10 @@ header {
   background-color: pink;
 }
 
+.pink.right {
+  height: 500px;
+}
+
 .violet {
   width: 500px;
   height: 500px;
