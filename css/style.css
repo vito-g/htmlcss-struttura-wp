@@ -46,14 +46,14 @@ main {
 
 .top {
   width: 100%;
-  height: 240px;
+  height: calc(250px - 20px);
   margin-bottom: 20px;
   background-color: pink;
 }
 
 .bottom {
   width: 100%;
-  height: 240px;
+  height: calc(250px - 20px);
   background-color: pink;
 }
 
