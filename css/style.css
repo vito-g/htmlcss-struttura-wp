@@ -19,7 +19,7 @@ header {
 main {
   margin-bottom: 10px;
 }
-
+/* Commento la regola qui sotto che sostituisco con la successiva */
 /* .left {
   width: 350px;
   height: 350px;
@@ -42,31 +42,42 @@ main {
   height: 100%;
 }
 
-.right {
+/* Commento la regola sotto che sostituisco con la successiva */
+/* .right {
   width: 350px;
   height: 500px;
   padding-left: 30px;
+} */
+
+.fl:last-child {
+  width: 350px;
+  height: 500px;
+  padding-left: 30px;
+  background-color: black;
 }
 
-.right .inner {
+.fl:last-child .inner {
   width: 100%;
   height: 500px;
 }
 
-.top {
+
+.top, .bottom {
   width: 100%;
   height: calc(250px - 20px);
   margin-bottom: 20px;
   background-color: pink;
 }
 
-.bottom {
-  width: 100%;
-  height: calc(250px - 20px);
-  background-color: pink;
-}
 
-.center {
+/* Commento la regola qui sotto che sostituisco con la successiva */
+/* .center {
+  width: 500px;
+  height: 500px;
+  background-color: violet;
+} */
+
+.fl:nth-child(2) {
   width: 500px;
   height: 500px;
   background-color: violet;
