@@ -28,7 +28,13 @@ main {
   /* background-color: black; */
 }
 
-.fl:first-child .inner {
+/* La class inner del blocco di sinistra è inutile. Perciò la elimino e cambio selettore alla regola che segue. Come fatto appena più sotto */
+/* .fl:first-child .inner {
+  background-color: pink;
+  width: 100%;
+  height: 100%;
+} */
+.fl:first-child div {
   background-color: pink;
   width: 100%;
   height: 100%;
