@@ -40,13 +40,19 @@ main {
   padding-left: 30px;
   /* background-color: black; */
 }
-
-.fl:last-child .inner {
+ /* Commento la regola qui sotto ed elimino l'inutile div inner del blocco destro: dovrò perciò cambiare selettore alla regola appena più in basso */
+/* .fl:last-child .inner {
   width: 100%;
   height: 500px;
-}
-
-.inner > div {
+} */
+/* Eliminato il div inner del blocco destro, dovrò quindi cambiare selettore alla regola sottostante. Il risultato è appena più sotto  */
+/* .inner > div {
+  width: 100%;
+  height: calc(250px - 20px);
+  margin-bottom: 20px;
+  background-color: pink;
+} */
+.fl:last-child div {
   width: 100%;
   height: calc(250px - 20px);
   margin-bottom: 20px;
